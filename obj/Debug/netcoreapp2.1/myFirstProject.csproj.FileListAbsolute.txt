@@ -1,0 +1,14 @@
+/home/salsabeel/Desktop/ASP.NET-CORE/bin/Debug/netcoreapp2.1/myFirstProject.deps.json
+/home/salsabeel/Desktop/ASP.NET-CORE/bin/Debug/netcoreapp2.1/myFirstProject.runtimeconfig.json
+/home/salsabeel/Desktop/ASP.NET-CORE/bin/Debug/netcoreapp2.1/myFirstProject.runtimeconfig.dev.json
+/home/salsabeel/Desktop/ASP.NET-CORE/bin/Debug/netcoreapp2.1/myFirstProject.dll
+/home/salsabeel/Desktop/ASP.NET-CORE/bin/Debug/netcoreapp2.1/myFirstProject.pdb
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.csprojAssemblyReference.cache
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.csproj.CoreCompileInputs.cache
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.RazorAssemblyInfo.cache
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.RazorAssemblyInfo.cs
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.AssemblyInfoInputs.cache
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.AssemblyInfo.cs
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.RazorTargetAssemblyInfo.cache
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.dll
+/home/salsabeel/Desktop/ASP.NET-CORE/obj/Debug/netcoreapp2.1/myFirstProject.pdb
