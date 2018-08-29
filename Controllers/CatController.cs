@@ -16,12 +16,21 @@ namespace firstProjectWebApi.Controllers
 
 		// GET api/cat/
 		//your code is here uncomment this method and write the required code to handle get request
-		// [HttpGet]
-		// public IEnumerable<Cat> GetAll()
-		// {
-		// 	//your code is here
-			
-		// }
+		 [HttpGet]
+		 public IEnumerable<Cat> GetAll()
+		 {
+		 	//your code is here
+			// Console.WriteLine("cats List");
+   //        foreach (var cat  in cats)
+   //         {
+   //         Console.WriteLine(cat);
+   //          }
+   //             }
+
+		 	return cats;
+
+
+		 }
 
         
         // POST api/cat
@@ -29,15 +38,24 @@ namespace firstProjectWebApi.Controllers
 		public Cat Insert([FromBody]Cat cat)
 		{
 			//your code is here
-			
-			return cat;
+			cats.Add(cat);
+            return cat;
 		}
 
         // PUT api/cat/name
 		[HttpPut("{name}")]
 		public void Put(string name, [FromBody] Cat cat)
 		{
-			//your code is here
+
+            //your code is here
+            for (int x = 0; x< cats.Count; x++)
+            {
+                if(cats[x].Name == name)
+                    cats[x] = cat;
+                    console.log(cat)
+            };
+            return cat;
+      
 		}
 
         // DELETE api/cat/1
@@ -46,6 +64,12 @@ namespace firstProjectWebApi.Controllers
 		public void Delete(string name)
 		{
 			//your code is here
+
+			 for (int i =0; i<cats.Count; i++)
+            {
+                if (cats[i].Name == name)
+                    cats.Remove(cats[i]);
+            };
 		}
 
 
